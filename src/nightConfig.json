@@ -1,0 +1,491 @@
+{
+  "about": "Night sailing (/sail/night), after reference/night_hei.png: a hushed teal night, soft pale clouds, sparse tiny stars, glassy dark sea, the raft small on the horizon, the moon low where the sunset sun was.",
+  "scene": {
+    "sceneScale": 1,
+    "matchFov": true
+  },
+  "wind": {
+    "windDirection": "west → east",
+    "windHeading": 90,
+    "clouds": "with wind",
+    "waves": "with wind",
+    "cloudSpeed": 0.5,
+    "cloudHeading": 135
+  },
+  "raftShape": {
+    "raftLength": 2.57,
+    "raftWidth": 1.93,
+    "logThickness": 1.95,
+    "mastHeight": 1.6,
+    "mastThickness": 1.75,
+    "mastPosition": 0.51,
+    "sailWidth": 2.01,
+    "sailHeight": 1.3,
+    "logEnds": "pointed front",
+    "pointLength": 1.08,
+    "bowShape": 0.04
+  },
+  "raftPosition": {
+    "motion": "anchored",
+    "leftRight": 0,
+    "upDown": 0.93,
+    "sink": 0.05,
+    "bowLift": 0.05,
+    "sternLift": 0
+  },
+  "wake": {
+    "followSpeed": true,
+    "wakeForce": 1.3,
+    "wakeSize": 1,
+    "wakeLength": 1,
+    "wakeDepth": 1,
+    "wakeBreakup": 1,
+    "foam": "#e2e8ff",
+    "wakeFlow": 1,
+    "wakeLace": 1,
+    "wakeChannel": 1,
+    "wakeWater": "#1f4a86",
+    "sternHeight": 0,
+    "sternLength": 1,
+    "sternWidth": 1,
+    "sternRolls": 3,
+    "sternChurn": 1,
+    "sternFoam": 1,
+    "wakeAngle": 14,
+    "armHeight": 0,
+    "armFoam": 1,
+    "armCount": 3
+  },
+  "raft": {
+    "raftSpeed": 0,
+    "raftScale": 1.9,
+    "raftYaw": 0,
+    "bobbing": 0.4,
+    "sailBillow": 1.54,
+    "sailTrim": 49,
+    "lightWrap": 0,
+    "showRaft": true,
+    "bark": "#1f3346",
+    "barkDark": "#0a1420",
+    "barkLight": "#2c4358",
+    "endGrain": "#46627a",
+    "rope": "#4f6b82",
+    "sail": "#40596f",
+    "bobSpeed": 0.6
+  },
+  "sun": {
+    "showSun": true,
+    "sunStrength": 1,
+    "sunAzimuth": 30,
+    "sunElevation": 21.65,
+    "sunColor": "#e6eefc",
+    "glowSize": 0.5,
+    "glowStrength": 1.34,
+    "discSize": 1.35,
+    "sunThroughClouds": 0.45,
+    "moonLook": 0.55,
+    "moonFlare": 0.15
+  },
+  "night": {
+    "stars": 0.35,
+    "starSize": 0.6,
+    "twinkle": 0.35,
+    "milkyWay": 0.12,
+    "starColor": "#cfe0f5",
+    "sparkleStars": 0.15
+  },
+  "sky": {
+    "sky0": "#2a4a78",
+    "sky1": "#244272",
+    "sky2": "#1f3c68",
+    "sky3": "#1a3560",
+    "sky4": "#162c52",
+    "sky5": "#132648",
+    "sky6": "#0b3a6d",
+    "skyStretch": 1.6,
+    "horizonSun": "#2f5280",
+    "lowSun": "#2a4a78",
+    "horizonAway": "#1f3c68",
+    "lowAway": "#1a3560",
+    "streakLit": "#6f8fb8",
+    "streakShade": "#132648",
+    "streakAmount": 0.5
+  },
+  "ocean": {
+    "ocean0": "#17304f",
+    "ocean1": "#122536",
+    "ocean2": "#0d1c2a",
+    "ocean3": "#0a151f",
+    "ocean4": "#071018",
+    "ocean5": "#050a10",
+    "ocean6": "#02050a",
+    "oceanStretch": 1.3,
+    "reflection": 0.3
+  },
+  "waves": {
+    "waveFlow": "wind",
+    "waveHeight": 0,
+    "waveStrength": 0.12,
+    "waveSpeed": 1.1,
+    "waveScale": 0.4,
+    "waveAngle": 12,
+    "waveShade": 0.4,
+    "glint": 0.2,
+    "glintSharpness": 500,
+    "sparkle": 0.1,
+    "sparkleSize": 0.8,
+    "sparkleSpread": 1,
+    "bioGlow": 0.08,
+    "bioColor": "#3fd0e0",
+    "bioSize": 1,
+    "bioSpeed": 1,
+    "bioDensity": 0.6
+  },
+  "clouds": {
+    "showClouds": true,
+    "cloudShadow": "#142a4a",
+    "cloudMid": "#1f3c68",
+    "cloudLit": "#3a5f8f",
+    "cloudRim": "#6f8fb8",
+    "cloudSkyTint": "#142a4a",
+    "cloudWidth": 1,
+    "cloudHeight": 1,
+    "cloudSpread": 1.2,
+    "cloudSoftness": 0.5,
+    "cloudBrush": 0.04
+  },
+  "birds": {
+    "birdsVisible": false,
+    "birdColor": "#2a2438",
+    "birdSize": 1,
+    "birdSpeed": 1,
+    "flapSpeed": 1
+  },
+  "camera": {
+    "fov": 48.5,
+    "height": 1.3,
+    "horizon": 0.363,
+    "tilt": 0,
+    "freeLook": true,
+    "frameAspect": false
+  },
+  "reference": {
+    "compareMode": "side by side",
+    "compare": 0.5,
+    "image": "Hei on the raft (night)"
+  },
+  "page": {
+    "screens": 2
+  },
+  "cloudTypes": {
+    "lit wisp": {
+      "type": "wisp",
+      "w": 6,
+      "h": 0.7,
+      "dark": 0,
+      "lit": 1,
+      "layer": 0
+    },
+    "towering cumulus": {
+      "type": "cumulus",
+      "w": 9,
+      "h": 7,
+      "dark": 0.85,
+      "lit": 0.9,
+      "layer": 1
+    },
+    "big cumulus": {
+      "type": "cumulus",
+      "w": 18,
+      "h": 6.5,
+      "dark": 0.9,
+      "lit": 0.95,
+      "layer": 1
+    },
+    "broken cloud": {
+      "type": "bits",
+      "w": 8,
+      "h": 3,
+      "dark": 0.7,
+      "lit": 0.9,
+      "layer": 2
+    },
+    "small cumulus": {
+      "type": "cumulus",
+      "w": 5,
+      "h": 2,
+      "dark": 0.75,
+      "lit": 0.9,
+      "layer": 2
+    },
+    "dark streak": {
+      "type": "stratus",
+      "w": 14,
+      "h": 3,
+      "dark": 1,
+      "lit": 0.2,
+      "layer": 3
+    },
+    "horizon band": {
+      "type": "stratus",
+      "w": 20,
+      "h": 1.6,
+      "dark": 0.3,
+      "lit": 1,
+      "layer": 0
+    }
+  },
+  "cloudLayout": [
+    {
+      "id": 1,
+      "type": "soft",
+      "az": -10.589,
+      "el": 6.873,
+      "w": 7.665,
+      "h": 3.257,
+      "seed": 674,
+      "dark": 0,
+      "lit": 1,
+      "layer": 0
+    },
+    {
+      "id": 2,
+      "type": "soft",
+      "az": 19.4357,
+      "el": 2.975,
+      "w": 6.623,
+      "h": 3.102,
+      "seed": 657,
+      "dark": 0,
+      "lit": 0.7,
+      "layer": 1
+    },
+    {
+      "id": 3,
+      "type": "soft",
+      "az": -14.0111,
+      "el": 6.8958,
+      "w": 9.746,
+      "h": 4.806,
+      "seed": 844,
+      "dark": 0,
+      "lit": 0.44,
+      "layer": 2
+    },
+    {
+      "id": 4,
+      "type": "soft",
+      "az": -23.7327,
+      "el": 2.624,
+      "w": 5.579,
+      "h": 2.481,
+      "seed": 657,
+      "dark": 0,
+      "lit": 0.7,
+      "layer": 0
+    },
+    {
+      "id": 5,
+      "type": "soft",
+      "az": -22.4772,
+      "el": 4.9847,
+      "w": 6.275,
+      "h": 2.171,
+      "seed": 776,
+      "dark": 0,
+      "lit": 0.5,
+      "layer": 1
+    },
+    {
+      "id": 6,
+      "type": "soft",
+      "az": -9.8633,
+      "el": 5.6136,
+      "w": 10.438,
+      "h": 3.567,
+      "seed": 827,
+      "dark": 0,
+      "lit": 1,
+      "layer": 2
+    },
+    {
+      "id": 7,
+      "type": "soft",
+      "az": 17.928,
+      "el": 2.948,
+      "w": 5.927,
+      "h": 2.016,
+      "seed": 708,
+      "dark": 0,
+      "lit": 0.8,
+      "layer": 0
+    },
+    {
+      "id": 8,
+      "type": "soft",
+      "az": 1.3318,
+      "el": 2.489,
+      "w": 4.325,
+      "h": 2.016,
+      "seed": 878,
+      "dark": 0,
+      "lit": 0.7,
+      "layer": 1
+    },
+    {
+      "id": 9,
+      "type": "soft",
+      "az": -23.3301,
+      "el": 5.017,
+      "w": 5.022,
+      "h": 2.791,
+      "seed": 912,
+      "dark": 0,
+      "lit": 0.7,
+      "layer": 2
+    },
+    {
+      "id": 10,
+      "type": "soft",
+      "az": -0.1008,
+      "el": 8.255,
+      "w": 4.883,
+      "h": 1.551,
+      "seed": 878,
+      "dark": 0,
+      "lit": 0.5,
+      "layer": 0
+    },
+    {
+      "id": 11,
+      "type": "soft",
+      "az": -0.9279,
+      "el": 3.886,
+      "w": 4.186,
+      "h": 1.396,
+      "seed": 861,
+      "dark": 0,
+      "lit": 0.4,
+      "layer": 1
+    },
+    {
+      "id": 12,
+      "type": "soft",
+      "az": -20.3461,
+      "el": 2.081,
+      "w": 4.883,
+      "h": 1.861,
+      "seed": 878,
+      "dark": 0,
+      "lit": 0.4,
+      "layer": 2
+    },
+    {
+      "id": 13,
+      "type": "wisp",
+      "az": 13.7153,
+      "el": 6.6336,
+      "w": 8.1,
+      "h": 5.3,
+      "seed": 147,
+      "dark": 0.4,
+      "lit": 1,
+      "layer": 0
+    },
+    {
+      "id": 14,
+      "type": "cumulus",
+      "az": 7.9209,
+      "el": 10.4504,
+      "w": 9,
+      "h": 7,
+      "seed": 73,
+      "dark": 0.85,
+      "lit": 0.9,
+      "layer": 1
+    },
+    {
+      "id": 15,
+      "type": "cumulus",
+      "az": 6.3515,
+      "el": 6.4269,
+      "w": 5,
+      "h": 2,
+      "seed": 563,
+      "dark": 0.16,
+      "lit": 0.9,
+      "layer": 2
+    },
+    {
+      "id": 16,
+      "type": "wisp",
+      "az": -12.6433,
+      "el": 2.5826,
+      "w": 6,
+      "h": 0.7,
+      "seed": 907,
+      "dark": 0,
+      "lit": 1,
+      "layer": 0
+    },
+    {
+      "id": 17,
+      "type": "bits",
+      "az": 13.4612,
+      "el": 5.6701,
+      "w": 8,
+      "h": 3,
+      "seed": 592,
+      "dark": 0.7,
+      "lit": 0.9,
+      "layer": 2
+    },
+    {
+      "id": 18,
+      "type": "cumulus",
+      "az": -14.2017,
+      "el": 3.5316,
+      "w": 18,
+      "h": 6.5,
+      "seed": 542,
+      "dark": 0.34,
+      "lit": 0.56,
+      "layer": 1
+    }
+  ],
+  "birdTypes": {
+    "V flock": {
+      "count": 7,
+      "formation": "V",
+      "spread": 1,
+      "size": 1,
+      "speed": 1,
+      "dir": "left"
+    },
+    "loose flock": {
+      "count": 9,
+      "formation": "loose",
+      "spread": 1.2,
+      "size": 0.9,
+      "speed": 1.1,
+      "dir": "left"
+    },
+    "pair": {
+      "count": 2,
+      "formation": "loose",
+      "spread": 0.6,
+      "size": 1,
+      "speed": 0.9,
+      "dir": "right"
+    },
+    "single bird": {
+      "count": 1,
+      "formation": "loose",
+      "spread": 1,
+      "size": 1.1,
+      "speed": 0.8,
+      "dir": "right"
+    }
+  },
+  "birdLayout": []
+}
